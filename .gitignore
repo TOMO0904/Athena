@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Exclude raw and processed data)
+data/
+processed_data/
+*.csv
+*.npy
+
+# Model weights
+models/
+*.pkl
+*.joblib
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Optuna databases
+*.db
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
